@@ -6,10 +6,10 @@ To use any of these themes as your own Beginland theme, grab the URL below and t
 
 Donate: This org is entirely run on donations. Your donations are greatly appreciated. Please address all Street Cred/Cool Point/Sound donations to the artist directly. 
 
-## Baldclap 1 (animated)
+## Baldclap: MrRobot (animated)
 *artist: @baldclap*
-URL: https://dillonupgradeit.github.io/css-fun/baldclap1.css
-![](images/baldclap1.gif)
+URL: https://dillonupgradeit.github.io/css-fun/mrrobot.css
+![](images/mrrobot.gif)
 
 ## Beginbot 1
 *artist: @beginbot*
@@ -25,6 +25,11 @@ URL: https://dillonupgradeit.github.io/css-fun/beginbotbot1.css
 *artist: @cachesking*
 URL: https://dillonupgradeit.github.io/css-fun/cachesking1.css
 ![](images/cachesking1.gif)
+
+## Geocities (animated)
+*artist: @baldclap*
+URL: https://dillonupgradeit.github.io/css-fun/geocities.css
+![](images/geocities.gif)
 
 ## Myspace
 *artist: @baldclap*
