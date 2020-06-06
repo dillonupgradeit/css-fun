@@ -1,6 +1,6 @@
 # BEGINLAND THEME STORE
 
-This is the non-profit organization dedicated to providing free themes and CSS hosting for Beginland (https://www.beginworld.exchange). Feel free to fork and submit your own CSS Themes [here](https://github.com/dillonupgradeit/css-fun/tree/gh-pages) to be hosted and shared.
+This is the non-profit organization dedicated to providing free themes and CSS hosting for [Beginland](https://www.beginworld.exchange). Feel free to fork and submit your own CSS Themes [here](https://github.com/dillonupgradeit/css-fun/tree/gh-pages) to be hosted and shared.
 
 To use any of these themes as your own Beginland theme, grab the URL below and type '!css [INSERT URL]' in BeginBot chat (without the '' and []). Example: !css https://dillonupgradeit.github.io/css-fun/myspace.css
 
