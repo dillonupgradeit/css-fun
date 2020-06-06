@@ -6,7 +6,7 @@ body {
     max-width:1000px;
     background:white;
     margin:0 auto;
-    height:100vh;
+    min-height:100vh;
 }
 h1 a {
     color:white;
@@ -79,17 +79,32 @@ li a:hover {
 @media only screen and (max-width:640px){
     ul {
         left:0;
-        top:400px;
+        top:250px;
+        margin-bottom:250px;
+        width:90%;
+        padding:5%;
+    }
+    h2{
+        width:90%;
+        padding:0 5%;
+    }
+    h2::after {
+        width:unset;
     }
     
 }
 @media only screen and (max-width:375px){
     h2 {
-        top:250px;
+        top:300px;
     }
     ul {
         left:0;
-        top:450px;
+        top:300px;
     }
-    
+    ul::before {
+        font-size:.45em;
+    }
+    body{
+        padding-bottom: 250px;
+    }
 }
