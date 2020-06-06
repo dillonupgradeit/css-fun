@@ -70,11 +70,11 @@ li:first-of-type {
 }
 li {
     color: black;
-    font-size: .5em;
+    font-size: .8em;
 }
 li a {
     color:black;
-    font-size:.5em;
+    font-size:.8em;
     text-decoration: none;
 }
 li a:hover {
