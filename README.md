@@ -31,8 +31,8 @@ URL: https://dillonupgradeit.github.io/css-fun/cachesking1.css
 URL: https://dillonupgradeit.github.io/css-fun/myspace.css
 ![](images/myspace.jpg)
 
-## Sanari_Nomi 1
-*artist: @sanari_nomi*
+## Sana_Rinomi 1
+*artist: @sana_rinomi*
 URL: https://dillonupgradeit.github.io/css-fun/sanarinomi.css
 ![](images/sanarinomi1.jpg)
 
