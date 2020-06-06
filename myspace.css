@@ -6,18 +6,19 @@ body {
     max-width:1000px;
     background:white;
     margin:0 auto;
+    height:100vh;
 }
 h1 a {
-    background:#02329a;
     color:white;
-    font-size:1em;
     text-decoration: none;
-    text-align:left;
 }
 h1 {
+    background:#02329a;
     margin:0;
     padding:25px 2%;
     width:96%;
+    font-size:1.1em;
+    text-align:left;
 }
 h3 {
     background:#6797ce;
@@ -25,10 +26,11 @@ h3 {
     width:96%;
     font-size:0.7em;
     padding:10px 2%;
+    margin:0;
 }
 h2 {
     position:absolute;
-    top:150px;
+    top:200px;
     display:block;
     color:black;
     font-size:.9em;
@@ -37,9 +39,13 @@ h2 {
 h2::after {
     display:block;
     background-image:url('https://myspace.com/common/images/user.png');
-    background-size:200px 100px;
+    background-size:200px 300px;
     background-position:left;
-    width:400px;
+    background-repeat:no-repeat;
+    height:400px;
+    font-size:.5em;
+    padding:0 10px 0px 210px;
+    width:60%;
     content:"'What do I do with my hands'  California    United States";
 
 }
@@ -50,6 +56,19 @@ ul::before {
     font-size:.9em;
 }
 ul {
-    border-top:10px solid #f4c996;
+    position:absolute;
+    top:200px;
+    left:50%;
+    list-style-type: none;
+    border-top:20px solid #f4c996;
     padding:20px;
+    width:60%;
+}
+li a {
+    color:black;
+    font-size:.5em;
+    text-decoration: none;
+}
+li a:hover {
+    color:#f4c996;
 }
