@@ -8,45 +8,45 @@ Donate: This org is entirely run on donations. Your donations are greatly apprec
 
 ## Baldclap 1 (animated)
 *artist: @baldclap*
-https://dillonupgradeit.github.io/css-fun/baldclap1.css
+URL: https://dillonupgradeit.github.io/css-fun/baldclap1.css
 ![](images/baldclap1.gif)
 
 ## Beginbot 1
 *artist: @beginbot*
-https://dillonupgradeit.github.io/css-fun/beginbot1.css
+URL: https://dillonupgradeit.github.io/css-fun/beginbot1.css
 ![](images/beginbot1.jpg)
 
 ## Beginbotbot 1
 *artist: @beginbotbot*
-https://dillonupgradeit.github.io/css-fun/beginbotbot1.css
+URL: https://dillonupgradeit.github.io/css-fun/beginbotbot1.css
 ![](images/beginbotbot1.jpg)
 
 ## Cachesking 1 (animated)
 *artist: @cachesking*
-https://dillonupgradeit.github.io/css-fun/cachesking1.css
+URL: https://dillonupgradeit.github.io/css-fun/cachesking1.css
 ![](images/cachesking1.gif)
 
 ## Myspace
 *artist: @baldclap*
-https://dillonupgradeit.github.io/css-fun/myspace.css
+URL: https://dillonupgradeit.github.io/css-fun/myspace.css
 ![](images/myspace.jpg)
 
 ## Sanari_Nomi 1
 *artist: @sanari_nomi*
-https://dillonupgradeit.github.io/css-fun/sanarinomi.css
+URL: https://dillonupgradeit.github.io/css-fun/sanarinomi.css
 ![](images/sanarinomi1.jpg)
 
 ## Usernamesarelame 1
 *artist: @usernamesarelame*
-https://dillonupgradeit.github.io/css-fun/usernamesarelame1.css
+URL: https://dillonupgradeit.github.io/css-fun/usernamesarelame1.css
 ![](images/usernamesarelame1.jpg)
 
 ## Whatsinmyopsec 1 (animated)
 *artist: @whatsinmyopsec*
-https://dillonupgradeit.github.io/css-fun/whatsinmyopsec1.css
+URL: https://dillonupgradeit.github.io/css-fun/whatsinmyopsec1.css
 ![](images/whatsinmyopsec1.gif)
 
 ## Zolor 1
 *artist: @zolor*
-https://dillonupgradeit.github.io/css-fun/zolor1.css
+URL: https://dillonupgradeit.github.io/css-fun/zolor1.css
 ![](images/zolor1.jpg)
