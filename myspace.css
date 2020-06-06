@@ -15,7 +15,7 @@ h1 a {
 h1 {
     background:#02329a;
     margin:0;
-    padding:25px 2%;
+    padding:50px 2%;
     width:96%;
     font-size:1.1em;
     text-align:left;
@@ -34,7 +34,8 @@ h2 {
     display:block;
     color:black;
     font-size:.9em;
-    width:400px;
+    width:30%;
+    padding:0 2%;
 }
 h2::after {
     display:block;
@@ -54,15 +55,18 @@ ul::before {
     content:"but most of all, beginbot is my hero";
     color:#000;
     font-size:.9em;
+    padding:10px;
 }
 ul {
-    position:absolute;
-    top:200px;
+    position:relative;
     left:50%;
     list-style-type: none;
-    border-top:20px solid #f4c996;
     padding:20px;
-    width:60%;
+    width:45%;
+}
+li:first-of-type {
+    border-top:20px solid #f4c996;
+    padding-top:20px;
 }
 li a {
     color:black;
@@ -71,4 +75,11 @@ li a {
 }
 li a:hover {
     color:#f4c996;
+}
+@media only screen and (max-width:640){
+    ul {
+        left:0;
+        top:400px;
+    }
+    
 }
