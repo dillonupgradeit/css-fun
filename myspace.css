@@ -1,0 +1,28 @@
+html{
+    background:#e0e0e0;
+    font-family:arial;
+}
+body {
+    max-width:1000px;
+    background:white;
+}
+h1 {
+    background:#02329a;
+    color:white;
+    font-size:1.2em;
+}
+
+h3 {
+    background:6797ce;
+    color:white;
+    width:100%;
+    font-size:0.8em;
+    padding:10px 20px;
+}
+h2 {
+    position:absolute;
+    top:150px;
+}
+h2::after {
+    content:url('https://myspace.com/common/images/user.png');
+}
