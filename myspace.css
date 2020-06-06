@@ -5,24 +5,51 @@ html{
 body {
     max-width:1000px;
     background:white;
+    margin:0 auto;
 }
-h1 {
+h1 a {
     background:#02329a;
     color:white;
-    font-size:1.2em;
+    font-size:1em;
+    text-decoration: none;
+    text-align:left;
 }
-
+h1 {
+    margin:0;
+    padding:25px 2%;
+    width:96%;
+}
 h3 {
-    background:6797ce;
+    background:#6797ce;
     color:white;
-    width:100%;
-    font-size:0.8em;
-    padding:10px 20px;
+    width:96%;
+    font-size:0.7em;
+    padding:10px 2%;
 }
 h2 {
     position:absolute;
     top:150px;
+    display:block;
+    color:black;
+    font-size:.9em;
+    width:400px;
 }
 h2::after {
-    content:url('https://myspace.com/common/images/user.png');
+    display:block;
+    background-image:url('https://myspace.com/common/images/user.png');
+    background-size:200px 100px;
+    background-position:left;
+    width:400px;
+    content:"'What do I do with my hands'  California    United States";
+
+}
+ul::before {
+    border:1px solid black;
+    content:"but most of all, beginbot is my hero";
+    color:#000;
+    font-size:.9em;
+}
+ul {
+    border-top:10px solid #f4c996;
+    padding:20px;
 }
