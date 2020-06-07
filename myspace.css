@@ -61,8 +61,9 @@ ul {
     position:relative;
     left:50%;
     list-style-type: none;
-    padding:20px;
+    padding:0 20px;
     width:45%;
+    margin:0;
 }
 li:first-of-type {
     border-top:20px solid #f4c996;
@@ -107,6 +108,7 @@ tr {
     font-size: .5em;
     column-gap: 11%;
     display: block;
+    padding:20px 0 0 0;
 
 }
 td {
@@ -123,11 +125,11 @@ a:hover {
 table tbody tr td a::after {
     display:block;
     background-image:url('https://myspace.com/common/images/user.png');
-    background-size:200px 200px;
+    background-size:100px auto;
     background-position:top left;
     background-repeat:no-repeat;
     height:400px;
-    padding:0 10px 0px 210px;
+    padding:0 10px 0px 100%;
     content:" ";
 }
 @media only screen and (max-width:640px){
