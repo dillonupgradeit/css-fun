@@ -82,7 +82,7 @@ h2:nth-of-type(2) {
 }
 ul:first-of-type {
     width: 225px;
-    margin:0 auto 26vh -110px;
+    margin:0 auto 32vh -110px;
     font-size: .5em;
     list-style-type: none;
     text-align: center;
