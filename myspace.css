@@ -102,11 +102,11 @@ tbody {
 }
 tr {
     border-top:20px solid #f4c996;
-    margin:20px;
+    margin-top:20px;
     column-count: 4;
     font-size: .5em;
     column-gap: 11%;
-    display: inline-block;
+    display: block;
 
 }
 td {
