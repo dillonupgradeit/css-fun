@@ -1,0 +1,13 @@
+html{
+    background-image:url('https://imgur.com/EcJGa2w');
+    background-size:auto 100%;
+    font-family:'Franklin Gothic Medium';
+    font-weight:700;
+    color:black;
+}
+a {
+    color:black;
+}
+a:hover {
+    color:#fec600;
+}
