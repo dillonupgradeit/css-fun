@@ -11,17 +11,15 @@ html{
 }
 body {
     background:unset;
-    column-count: 2;
-    column-gap: 40vw;
     padding: 0 10vw;
 }
 h1 {
     position:absolute;
     bottom:25px;
     left:0;
-    margin:10px;
+    padding:0px;
     width: 400px;
-    margin-left:-200px
+    margin: 0 0 0 -200px;
 }
 h1 a {
     color:#fec600;
@@ -38,7 +36,7 @@ a:hover {
 ul {
     list-style-type: none;
     column-count: 2;
-    column-gap: 10px;
+    column-gap: 45vw;
     margin:0;
 }
 li a {
@@ -46,14 +44,14 @@ li a {
     
 }
 h2 {
-    margin-top:20vh;
+    text-align:center;
     font-weight:700;
     color:black;
     font-size:1.2em;
  
 }
 h3 {
-    height:60vh;
-    font-size:.8em;
+    color:black; 
+    text-align:center;
     font-size:.8em;
 }
