@@ -113,6 +113,12 @@ td {
     text-align: center;
     display: list-item;
 }
+td a {
+    color:black;
+}
+a:hover {
+    color:#02329a;
+}
 table tbody tr td a::after {
     height:100px;
     display:block;
