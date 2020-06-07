@@ -1,13 +1,49 @@
 html{
-    background-image:url('https://imgur.com/EcJGa2w');
-    background-size:auto 100%;
+    background-image:url('https://imgur.com/EcJGa2w.jpg');
+    background-size:auto 75%;
+    background-color:#fec600;
+    background-position:bottom;
+    background-repeat:no-repeat;
     font-family:'Franklin Gothic Medium';
     font-weight:700;
     color:black;
+    height:100vh;
+}
+body {
+    background:unset;
+}
+h1 {
+    position:absolute;
+    bottom:25px;
+}
+h1 a {
+    color:#fec600;
+    text-decoration:none;
 }
 a {
     color:black;
+    text-decoration:none;
 }
 a:hover {
     color:#fec600;
+}
+
+ul {
+    list-style-type: none;
+    width:50%;
+    display:flex;
+}
+li a {
+    font-size:.7em;
+    
+}
+h2 {
+    margin-top:40vh;
+    width:50%;
+    display:flex;
+}
+h3 {
+    height:50vh;
+    width:50%;
+    display:flex;
 }
