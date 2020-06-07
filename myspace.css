@@ -50,7 +50,7 @@ h2::after {
     content:"'What do I do with my hands'  California    United States";
 
 }
-ul:first-of-type::before {
+table::before {
     border:1px solid black;
     content:"but most of all, beginbot is my hero";
     color:#000;
@@ -92,9 +92,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 table {
     position:relative;
     left:50%;
+    display:block;
     list-style-type: none;
-    padding: 20px;
-    width:45%;
+    width:49%;
     border-collapse: collapse;
 }
 tr {
@@ -104,12 +104,11 @@ tr {
     font-size: .5em;
     column-gap: 11%;
     display: flow-root;
-    width: 45%;
+
 }
 td {
     text-align: center;
-    height: 100px;
-    padding-bottom: 50px;
+    display: list-item;
 }
 td:after {
     height:100px;
