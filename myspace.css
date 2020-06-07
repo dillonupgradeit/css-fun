@@ -98,13 +98,16 @@ table {
     border-collapse: collapse;
 }
 tr {
-    border-top:20px solid #f4c996;
     margin:20px;
     column-count: 4;
     font-size: .5em;
     column-gap: 11%;
     display: inline-block;
 
+}
+td:first-of-type {
+    border-top:20px solid #f4c996;
+    margin:20px;
 }
 td {
     text-align: center;
