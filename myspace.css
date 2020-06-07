@@ -79,6 +79,23 @@ li a {
 li a:hover {
     color:#f4c996;
 }
+table {
+    position:relative;
+    left:50%;
+    list-style-type: none;
+    padding:20px;
+    width:45%;
+    border-top:20px solid #f4c996;
+    margin-top:20px;
+}
+tr {
+    columns: 4;
+    column-gap: 2%;
+}
+td:after {
+    display:block;
+    background-image:url('https://myspace.com/common/images/user.png');
+}
 @media only screen and (max-width:640px){
     ul {
         left:0;
