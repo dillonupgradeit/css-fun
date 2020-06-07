@@ -79,20 +79,30 @@ li a {
 li a:hover {
     color:#f4c996;
 }
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    display:unset;
+    vertical-align: baseline;
+    background: transparent;
+}
 table {
     position:relative;
     left:50%;
     list-style-type: none;
-    padding:20px;
+    padding: 20px;
     width:45%;
+    border-collapse: collapse;
+}
+tr {
     border-top:20px solid #f4c996;
     margin-top:20px;
 }
-tr {
-    columns: 4;
-    column-gap: 2%;
-}
 td:after {
+    
     display:block;
     background-image:url('https://myspace.com/common/images/user.png');
 }
