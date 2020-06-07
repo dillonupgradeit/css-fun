@@ -1,8 +1,8 @@
 @font-face{ 
 	font-family: 'pokemon_hollownormal';
-	src: url('fonts/pokemon_hollownormal.woff2') format('woff2'),
-	     url('fonts/pokemon_hollownormal.woff') format('woff'),
-	     url('fonts/pokemon_hollownormal.ttf') format('truetype');
+	src: url('https://dillonupgradeit.github.io/css-fun/fonts/pokemon_hollownormal.woff2') format('woff2'),
+	     url('https://dillonupgradeit.github.io/css-fun/fonts/pokemon_hollownormal.woff') format('woff'),
+	     url('https://dillonupgradeit.github.io/css-fun/fonts/pokemon_hollownormal.ttf') format('truetype');
 }
 html{
    background:#fec90c;
