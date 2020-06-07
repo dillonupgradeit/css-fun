@@ -5,10 +5,10 @@
 	     url('fonts/pokemon_hollownormal.ttf') format('truetype');
 }
 html{
-    background-size:100% auto;
-    background-position:center;
-    background-image:url('https://cdn.bulbagarden.net/media/upload/5/54/RBY_Kanto.png');
-}
+   background:#fec90c;
+  background: rgb(255,0,0);
+   background: linear-gradient(13deg, rgba(255,0,0,1) 0%, rgba(254,201,12,1) 35%);
+    }
 body {
     
     background:unset;
@@ -19,15 +19,15 @@ body {
 }
 h1 a, h2 {
     font-family: 'pokemon_hollownormal';
-    color:#2457b4;
-    text-shadow:0 0 0, 0 0 0, 5px 5px 1px #1b3374 ;
+    color:#fec90c;
+    text-shadow:-2px 2px 2px #1b3374 ;
 }
 h3 {
-
+    color:#2457b4;
 }
 ul {
     text-decoration:none;
 }
 li a {
-    color:#fec90c;
+    color:#2457b4;
 }
