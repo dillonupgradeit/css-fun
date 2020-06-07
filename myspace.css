@@ -98,7 +98,7 @@ table {
     border-collapse: collapse;
 }
 tbody {
-    display:inline-block;
+    display:block;
 }
 tr {
     border-top:20px solid #f4c996;
@@ -115,15 +115,20 @@ td {
 }
 td a {
     color:black;
+    text-decoration: none;
 }
 a:hover {
     color:#02329a;
 }
 table tbody tr td a::after {
-    height:100px;
     display:block;
     background-image:url('https://myspace.com/common/images/user.png');
-    background-size:100% auto;
+    background-size:200px 200px;
+    background-position:top left;
+    background-repeat:no-repeat;
+    height:400px;
+    padding:0 10px 0px 210px;
+    content:" ";
 }
 @media only screen and (max-width:640px){
     ul {
