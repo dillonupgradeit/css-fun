@@ -11,6 +11,11 @@ Donate: This org is entirely run on donations. Your donations are greatly apprec
 URL: https://dillonupgradeit.github.io/css-fun/mrrobot.css
 ![](images/mrrobot.gif)
 
+## Borlax
+*artist: @baldclap*
+URL: https://dillonupgradeit.github.io/css-fun/borlax.css
+![](images/borlax.jpg)
+
 ## Curb
 *artist: @baldclap*
 URL: https://dillonupgradeit.github.io/css-fun/curbyourenthusiasm.css
@@ -35,11 +40,6 @@ URL: https://dillonupgradeit.github.io/css-fun/myspace.css
 *artist: @sana_rinomi*
 URL: https://dillonupgradeit.github.io/css-fun/sanarinomi.css
 ![](images/sanarinomi1.jpg)
-
-## Snorlax
-*artist: @baldclap*
-URL: https://dillonupgradeit.github.io/css-fun/snorlax.css
-![](images/snorlax.jpg)
 
 ## Usernamesarelame 1
 *artist: @usernamesarelame*
