@@ -69,12 +69,11 @@ li:first-of-type {
     margin-top:20px;
 }
 li {
-    color: black;
+    color: #5f5f5f;
     font-size: .8em;
 }
 li a {
     color:black;
-    font-size:.8em;
     text-decoration: none;
 }
 li a:hover {
