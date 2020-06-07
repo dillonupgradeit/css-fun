@@ -110,7 +110,7 @@ td {
     text-align: center;
     display: list-item;
 }
-td:after {
+td a:after {
     height:100px;
     display:block;
     background-image:url('https://myspace.com/common/images/user.png');
