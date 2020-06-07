@@ -7,7 +7,6 @@
 html{
    background:#fec90c;
   background: rgb(255,0,0);
-  height:100vh;
    background: linear-gradient(13deg, rgba(255,0,0,1) 0%, rgba(254,201,12,1) 35%);
     }
 body {
@@ -21,18 +20,16 @@ body {
     padding: 0;
     margin: 0;
 }
-h1 a, h2 {
+h1 a, h2, h3{
     text-decoration:none;
     font-family: 'pokemon_hollownormal';
     color:#fec90c;
     -webkit-text-stroke: 2px #2457b4;
     text-shadow:-4px 3px 2px #1b3374 ;
     text-align:center;
+    letter-spacing: 4px;
 }
-h3 {
-    color:#2457b4;
-    text-align:center;
-}
+
 ul {
     list-style-type: none;
 }
