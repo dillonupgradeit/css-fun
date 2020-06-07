@@ -6,20 +6,15 @@ To use any of these themes as your own Beginland theme, grab the URL below and t
 
 Donate: This org is entirely run on donations. Your donations are greatly appreciated. Please address all Street Cred/Cool Point/Sound donations to the artist directly. 
 
-## Baldclap: MrRobot (animated)
+## Baldclap 1 (animated)
 *artist: @baldclap*
 URL: https://dillonupgradeit.github.io/css-fun/mrrobot.css
 ![](images/mrrobot.gif)
 
-## Beginbot 1
-*artist: @beginbot*
-URL: https://dillonupgradeit.github.io/css-fun/beginbot1.css
-![](images/beginbot1.jpg)
-
-## Beginbotbot 1
-*artist: @beginbotbot*
-URL: https://dillonupgradeit.github.io/css-fun/beginbotbot1.css
-![](images/beginbotbot1.jpg)
+## Curb
+*artist: @baldclap*
+URL: https://dillonupgradeit.github.io/css-fun/curbyourenthusiasm.css
+![](images/curbyourenthusiasm.jpg)
 
 ## Cachesking 1 (animated)
 *artist: @cachesking*
@@ -40,6 +35,11 @@ URL: https://dillonupgradeit.github.io/css-fun/myspace.css
 *artist: @sana_rinomi*
 URL: https://dillonupgradeit.github.io/css-fun/sanarinomi.css
 ![](images/sanarinomi1.jpg)
+
+## Snorlax
+*artist: @baldclap*
+URL: https://dillonupgradeit.github.io/css-fun/snorlax.css
+![](images/snorlax.jpg)
 
 ## Usernamesarelame 1
 *artist: @usernamesarelame*
