@@ -7,8 +7,8 @@
 html{
    background:#fec90c;
   background: rgb(255,0,0);
-   background: linear-gradient(13deg, rgba(255,0,0,1) 0%, rgba(254,201,12,1) 35%);
-    }
+  
+  background: linear-gradient(13deg, rgba(255,0,0,1) 0%, rgba(254,201,12,1) 78%);  }
 body {
     
     background:unset;
@@ -19,6 +19,7 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
+    display:inline-table;
     background-attachment: fixed;
 }
 h1, h1 a, h2, h3{
