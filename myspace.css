@@ -94,7 +94,7 @@ table {
     left:50%;
     display:block;
     list-style-type: none;
-    width:49%;
+    width:45%;
     border-collapse: collapse;
 }
 tr {
@@ -103,14 +103,14 @@ tr {
     column-count: 4;
     font-size: .5em;
     column-gap: 11%;
-    display: flow-root;
+    display: inline-block;
 
 }
 td {
     text-align: center;
     display: list-item;
 }
-td a:after {
+table tbody tr td a::after {
     height:100px;
     display:block;
     background-image:url('https://myspace.com/common/images/user.png');
