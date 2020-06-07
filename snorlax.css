@@ -4,6 +4,11 @@
 	     url('fonts/pokemon_hollownormal.woff') format('woff'),
 	     url('fonts/pokemon_hollownormal.ttf') format('truetype');
 }
+html{
+    background-size:100% auto;
+    background-position:center;
+    background-image:url('https://cdn.bulbagarden.net/media/upload/5/54/RBY_Kanto.png');
+}
 body {
     
     background:unset;
@@ -16,4 +21,13 @@ h1 a, h2 {
     font-family: 'pokemon_hollownormal';
     color:#2457b4;
     text-shadow:0 0 0, 0 0 0, 5px 5px 1px #1b3374 ;
+}
+h3 {
+
+}
+ul {
+    text-decoration:none;
+}
+li a {
+    color:#fec90c;
 }
