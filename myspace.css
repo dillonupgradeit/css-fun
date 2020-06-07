@@ -86,7 +86,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     border: 0;
     outline: 0;
     font-size: 100%;
-    display:inline;
+    display:block;
     vertical-align: baseline;
     background: transparent;
 }
