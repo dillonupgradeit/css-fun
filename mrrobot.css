@@ -120,6 +120,13 @@ li a:hover {
 }
 table {
     display:block;
+    margin: 0 10%;
+    position: absolute;
+    bottom:10vh;
+    width: 100%;
+}
+tbody {
+    display:block;
 }
 tr{
  display:block;
@@ -130,7 +137,9 @@ tr{
 td {
     text-align: center;
     display: list-item;
+    list-style-type: none;
 }
 td a {
     animation: example 1.82s infinite;
+    font-size:;
 }
