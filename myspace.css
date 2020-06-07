@@ -85,7 +85,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     border: 0;
     outline: 0;
     font-size: 100%;
-    display:unset;
+    display:inline;
     vertical-align: baseline;
     background: transparent;
 }
@@ -101,9 +101,15 @@ tr {
     border-top:20px solid #f4c996;
     margin:20px;
     column-count: 4;
-    column-width: 20%;
     font-size: .5em;
     column-gap: 11%;
+    display: flow-root;
+    width: 45%;
+}
+td {
+    text-align: center;
+    height: 100px;
+    padding-bottom: 50px;
 }
 td:after {
     height:100px;
