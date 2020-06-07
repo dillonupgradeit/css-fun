@@ -16,7 +16,7 @@ body {
 h1 {
     position:absolute;
     bottom:25px;
-    left:0;
+    left:50%;
     padding:0px;
     width: 400px;
     margin: 0 0 0 -200px;
@@ -37,10 +37,11 @@ ul {
     list-style-type: none;
     column-count: 2;
     column-gap: 45vw;
-    margin:0;
+    margin:50px 0 0 0;
+
 }
 li a {
-    font-size:.7em;
+    font-size:.6em;
     
 }
 h2 {
