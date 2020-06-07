@@ -106,9 +106,10 @@ tr {
     column-gap: 11%;
 }
 td:after {
-    
+    height:100px;
     display:block;
     background-image:url('https://myspace.com/common/images/user.png');
+    background-size:100% auto;
 }
 @media only screen and (max-width:640px){
     ul {
