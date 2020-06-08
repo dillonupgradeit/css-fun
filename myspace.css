@@ -128,9 +128,68 @@ table tbody tr td a::after {
     background-size:100px auto;
     background-position:top left;
     background-repeat:no-repeat;
-    height:400px;
+    height:120px;
     padding:0 10px 0px 100%;
     content:" ";
+}
+audio::-webkit-media-controls-panel {
+    background:linear-gradient(13deg, rgba(217,217,217,1) 0%, rgba(161,161,161,1) 45%, rgba(233,233,233,1) 98%);
+}
+
+audio::-webkit-media-controls-mute-button{
+    color:#0e0e0e;
+}
+
+audio::-webkit-media-controls-play-button{
+    color:#0e0e0e;
+}
+
+audio::-webkit-media-controls-timeline-container{
+   background:#0e0e0e;
+}
+
+audio::-webkit-media-controls-current-time-display{
+    
+}
+
+audio::-webkit-media-controls-time-remaining-display{
+    
+}
+
+audio::-webkit-media-controls-timeline{
+    
+}
+
+audio::-webkit-media-controls-volume-slider-container{
+    
+}
+
+audio::-webkit-media-controls-volume-slider{
+    
+}
+
+audio::-webkit-media-controls-seek-back-button{
+    
+}
+
+audio::-webkit-media-controls-seek-forward-button{
+    
+}
+
+audio::-webkit-media-controls-fullscreen-button{
+    
+}
+
+audio::-webkit-media-controls-rewind-button{
+    
+}
+
+audio::-webkit-media-controls-return-to-realtime-button{
+    
+}
+
+audio::-webkit-media-controls-toggle-closed-captions-button{
+    
 }
 @media only screen and (max-width:640px){
     ul {
