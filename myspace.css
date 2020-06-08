@@ -146,7 +146,7 @@ figure{
      display:none;
  }
  audio {
-     opacity:.5;
+     opacity:.0;
      width:100%;
  height:70px
  }
@@ -158,8 +158,7 @@ figure{
 
  
  audio::-webkit-media-controls-play-button{
-     color:#0e0e0e;
-     background:black;
+
      position:absolute;
      left:19%;
      top:10%;
@@ -187,7 +186,6 @@ figure{
  
  audio::-webkit-media-controls-timeline{
       color:#0e0e0e;
-  
      position:absolute;
      left:55%;
      width:40%;
