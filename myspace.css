@@ -155,9 +155,7 @@ figure{
  
  } */
  
- audio::-webkit-media-controls-mute-button{
-     color:#0e0e0e;
- }
+
  
  audio::-webkit-media-controls-play-button{
      color:#0e0e0e;
@@ -193,7 +191,7 @@ figure{
      position:absolute;
      left:55%;
      width:40%;
-     top:35px;
+     top:40px;
      display:block;
  }
  
@@ -209,9 +207,10 @@ figure{
     color:#0e0e0e;
     position:absolute;
     left:17%;
-    width:150%;
+    width:500%;
     top:20%;
     display:block;
+    z-index:999999;
 }
  audio::-webkit-media-controls-volume-slider{
       color:#0e0e0e;
@@ -221,6 +220,7 @@ figure{
      width:150%;
      top:20%;
      display:block;
+     z-index:9999999;
  }
 @media only screen and (max-width:640px){
     ul {
