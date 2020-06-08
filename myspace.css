@@ -161,7 +161,7 @@ figure{
      color:#0e0e0e;
      background:black;
      position:absolute;
-     left:80px;
+     left:19%;
      top:10%;
      width:17%;
      height:40px;
@@ -208,7 +208,7 @@ figure{
     position:absolute;
     left:17%;
     width:500%;
-    top:20%;
+    top:25%;
     display:block;
     z-index:999999;
 }
@@ -217,8 +217,8 @@ figure{
   
      position:absolute;
      left:17%;
-     width:150%;
-     top:20%;
+     width:170%;
+     top:25%;
      display:block;
      z-index:9999999;
  }
