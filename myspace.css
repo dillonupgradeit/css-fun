@@ -138,6 +138,10 @@ figure{
      width:45%;
      color:transparent;
  }
+ audio::-webkit-media-controls-enclosure{
+    background:transparent;
+    border-radius:0px
+}
  figcaption{
      display:none;
  }
@@ -146,10 +150,10 @@ figure{
      width:100%;
  height:70px
  }
- audio::-webkit-media-controls-panel {
+ /* audio::-webkit-media-controls-panel {
      background:linear-gradient(13deg, rgba(217,217,217,1) 0%, rgba(161,161,161,1) 45%, rgba(233,233,233,1) 98%);
  
- }
+ } */
  
  audio::-webkit-media-controls-mute-button{
      color:#0e0e0e;
@@ -195,14 +199,20 @@ figure{
  
  audio::-webkit-media-controls-volume-slider:nth-child(){
      color:#0e0e0e;
-  
      position:absolute;
      left:15%;
      width:40%;
      top:40%;
      display:block;
  }
- 
+ audio::-webkit-media-controls-mute-button {
+    color:#0e0e0e;
+    position:absolute;
+    left:17%;
+    width:150%;
+    top:20%;
+    display:block;
+}
  audio::-webkit-media-controls-volume-slider{
       color:#0e0e0e;
   
