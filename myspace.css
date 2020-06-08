@@ -113,7 +113,7 @@ tr {
 }
 td {
     text-align: center;
-    display: list-item;
+    width: 100%;
 }
 td a {
     color:black;
@@ -125,7 +125,7 @@ a:hover {
 table tbody tr td a::after {
     display:block;
     background-image:url('https://myspace.com/common/images/user.png');
-    background-size:100px auto;
+    background-size:100% auto;
     background-position:top left;
     background-repeat:no-repeat;
     height:120px;
@@ -137,6 +137,9 @@ figure{
      background-size:100% auto;
      width:45%;
      color:transparent;
+     position:relative;
+     top:-200px;
+     right:10px;
  }
  audio::-webkit-media-controls-enclosure{
     background:transparent;
@@ -220,10 +223,15 @@ figure{
      display:block;
      z-index:9999999;
  }
+ @media only screen and (max-width:925px){
+    td a {
+        font-size:1.5vw;
+    }
+ }
 @media only screen and (max-width:640px){
     ul {
         left:0;
-        top:250px;
+        top:300px;
         width:90%;
         padding:5%;
     }
@@ -234,7 +242,16 @@ figure{
     body{
         padding-bottom: 250px;
     }
-    
+    table {
+        left:0;
+        top:350px;
+        width:90%;
+        padding:5%;
+    }
+    figure {
+        top:-375px;
+        right:0;
+    }
 }
 @media only screen and (max-width:375px){
     h2 {
