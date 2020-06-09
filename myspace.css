@@ -171,9 +171,9 @@ figure{
      height:40px;
      display:block;
  }
- 
- audio::-webkit-media-controls-timeline-container{
-    
+ audio::-webkit-media-controls-play-button:hover{
+    background:#0e0e0e;
+
  }
  
  audio::-webkit-media-controls-current-time-display{
