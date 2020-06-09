@@ -137,9 +137,9 @@ figure{
      background-size:100%;
      width:400px;
      color:transparent;
-     position:relative;
-     top:-200px;
-     right:10px;
+     position:absolute;
+     top:500px;
+     left:-25px;
      height:75px;
      max-height:85px;
  }
@@ -148,22 +148,10 @@ figure{
     border-radius:0px
 }
  figcaption{
-     padding:0;
-     margin:0;
-     position:absolute;
-     left:84px;
-     top:17px;
-     width:55px;
-     height:25px;
-     display:block;
-     background-image:url('https://imgur.com/t2pbcK0.png');
-     background-size:100%;
+    display:none;
 
  }
- figcaption:hover {
-     background-image:url('https://imgur.com/sUTj19O.png');
-     background-size:100%;
- }
+
  audio {
      opacity:1;
      width:100%;
@@ -180,12 +168,14 @@ figure{
  }
  
  audio::-webkit-media-controls-play-button{
-    background:transparent;
+     background-color:transparent;
+    background-image:url('https://imgur.com/t2pbcK0.png');
+    background-size:100%;
     position:absolute;
-    left:84px;
-    top:17px;
-    width:55px;
-    height:25px;
+    left:83px;
+     top:14px;
+     width:55px;
+     height:25px;
     display:block;
  }
 
@@ -238,7 +228,7 @@ figure{
         font-size:1.5vw;
     }
  }
-@media only screen and (max-width:640px){
+@media only screen and (max-width:800px){
     ul {
         left:0;
         top:300px;
@@ -260,10 +250,12 @@ figure{
     }
     figure {
         position: absolute;
-        left:0;
+        left:-15px;
         top:450px;
-        width:90%;
-
+        background-size:100% auto;
+        height:16vw;
+        max-width:400px;
+        max-height:76;
     }
 }
 @media only screen and (max-width:375px){
