@@ -244,7 +244,7 @@ figure{
         padding:0 5%;
     }
     body{
-        padding-bottom: 250px;
+        padding-bottom: 300px;
     }
     table {
         left:0;
@@ -253,7 +253,9 @@ figure{
         padding:5%;
     }
     figure {
-        top:-350px;
+        position: absolute;
+        left:0;
+        top:450px;
         width:90%;
 
     }
