@@ -133,7 +133,7 @@ table tbody tr td a::after {
     content:" ";
 }
 figure{
-    background:url('https://imgur.com/Ok1TFjP.png');
+    background:url('https://imgur.com/gtxRSyM.png');
      background-size:100%;
      width:400px;
      color:transparent;
@@ -150,15 +150,18 @@ figure{
  figcaption{
      padding:0;
      margin:0;
-     position:relative;
-     width:100%;
-     height:100%;
-     background-image:url('https://imgur.com/H61N8TR.png');
+     position:absolute;
+     left:18%;
+     top:15%;
+     width:88px;
+     height:30px;
+     display:block;
+     background-image:url('https://imgur.com/t2pbcK0.png');
      background-size:100%;
 
  }
  figcaption:hover {
-     background-image:url('https://imgur.com/pubgxd6');
+     background-image:url('https://imgur.com/sUTj19O/png');
      background-size:100%;
  }
  audio {
@@ -175,25 +178,21 @@ figure{
  
  audio::-webkit-media-controls-play-button{
     background:transparent;
-     position:absolute;
-     left:19%;
-     top:10%;
-     width:17%;
-     height:40px;
-     display:block;
+    position:absolute;
+    left:19%;
+    top:15%;
+    width:65px;
+    height:30px;
+    display:block;
  }
- audio::-webkit-media-controls-play-button:hover ~ figcaption{
-    background-image:url('https://imgur.com/pubgxd6');
-    background-size:100%;
-   
- }
+
  
  audio::-webkit-media-controls-current-time-display{
      color:#0e0e0e;
      position:absolute;
-     left:45%;
+     left:175px;
      width:7%;
-     top:55px;
+     top:53px;
      display:block;
  }
  
@@ -204,9 +203,9 @@ figure{
  audio::-webkit-media-controls-timeline{
       color:#0e0e0e;
      position:absolute;
-     left:55%;
-     width:40%;
-     top:40px;
+     left:197px;
+     width:180px;
+     top:33px;
      display:block;
  }
 
@@ -225,9 +224,9 @@ figure{
       color:#0e0e0e;
   
      position:absolute;
-     left:27%;
-     width:160%;
-     top:25%;
+     left:24px;
+     width:140px;
+     top:7px;
      display:block;
      z-index:9999999;
  }
