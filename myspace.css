@@ -133,14 +133,14 @@ table tbody tr td a::after {
     content:" ";
 }
 figure{
-    background:url('https://www.dummies.com/wp-content/uploads/138543.image0.jpg');
-     background-size:100% auto;
-     width:45%;
+    background:url('https://imgur.com/Ok1TFjP.png');
+     background-size:100%;
+     width:400px;
      color:transparent;
      position:relative;
      top:-200px;
      right:10px;
-     height:8vw;
+     height:75px;
      max-height:85px;
  }
  audio::-webkit-media-controls-enclosure{
@@ -148,10 +148,21 @@ figure{
     border-radius:0px
 }
  figcaption{
-     display:none;
+     padding:0;
+     margin:0;
+     position:relative;
+     width:100%;
+     height:100%;
+     background-image:url('https://imgur.com/H61N8TR.png');
+     background-size:100%;
+
+ }
+ figcaption:hover {
+     background-image:url('https://imgur.com/pubgxd6');
+     background-size:100%;
  }
  audio {
-     opacity:.3;
+     opacity:1;
      width:100%;
     height:70px
  }
@@ -171,9 +182,10 @@ figure{
      height:40px;
      display:block;
  }
- audio::-webkit-media-controls-play-button:hover{
-    background:#0e0e0e;
-
+ audio::-webkit-media-controls-play-button:hover ~ figcaption{
+    background-image:url('https://imgur.com/pubgxd6');
+    background-size:100%;
+   
  }
  
  audio::-webkit-media-controls-current-time-display{
@@ -197,15 +209,7 @@ figure{
      top:40px;
      display:block;
  }
- 
- audio::-webkit-media-controls-volume-slider:nth-child(){
-     color:#0e0e0e;
-     position:absolute;
-     left:15%;
-     width:40%;
-     top:40%;
-     display:block;
- }
+
  audio::-webkit-media-controls-mute-button {
     background:transparent;
     color:#0e0e0e;
