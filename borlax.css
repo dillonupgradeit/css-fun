@@ -1,0 +1,50 @@
+@font-face{ 
+	font-family: 'pokemon_hollownormal';
+	src: url('https://dillonupgradeit.github.io/css-fun/fonts/pokemon_hollownormal.woff2') format('woff2'),
+	     url('https://dillonupgradeit.github.io/css-fun/fonts/pokemon_hollownormal.woff') format('woff'),
+	     url('https://dillonupgradeit.github.io/css-fun/fonts/pokemon_hollownormal.ttf') format('truetype');
+}
+html{
+    background:#fec90c;
+  background: rgb(255,0,0);
+  background: linear-gradient(13deg, rgba(255,0,0,1) 0%, rgba(254,201,12,1) 78%);    
+  animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+body {
+    
+    background:unset;
+    background-image:url('https://imgur.com/l30r8dK.png');
+    background-size:auto 70%;
+    background-position:bottom;
+    background-repeat:no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    display:inline-table;
+    background-attachment: fixed;
+}
+h1, h1 a, h2, h3{
+    text-decoration:none;
+    font-family: 'pokemon_hollownormal';
+    color:#fec90c;
+    -webkit-text-stroke: 2px #2457b4;
+    text-shadow:-4px 3px 2px #1b3374 ;
+    text-align:center;
+    letter-spacing: 4px;
+}
+h3 {
+    font-size:.9em;
+}
+ul {
+    list-style-type: none;
+}
+li a {
+    color:#2457b4;
+    text-decoration:none;
+}

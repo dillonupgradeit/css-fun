@@ -4,13 +4,19 @@ body {
     font-size: 2em;
     font-family: "Helvetica";
     text-align:center;
-    max-width: 900px;
     margin:0 auto;
     background-image: url(https://imgur.com/Yaz9IbT.gif);
-    background-size:auto 50%;
+    background-size:auto 60%;
     background-position:bottom;
     background-repeat:no-repeat;
     height:100vh;
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width:100%;
+}
+h1 {
+    margin:1vh 0;
 }
 h1 a, h3 {
     color:black;
@@ -24,9 +30,10 @@ h1 a, h3 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration:none;
+    margin:0;
   }
   h3 {
-      font-size:1em;
+      font-size:3.5vw;
   }
   @keyframes example {
     100% {background: black; -webkit-background-clip: text;
@@ -66,7 +73,7 @@ h2, h3 {
 h2:first-of-type {
     width:275px;
     position:absolute;
-    bottom:450px;
+    bottom:60vh;
     left:50%;
     margin-left:-125px;
 }
@@ -74,8 +81,8 @@ h2:nth-of-type(2) {
 
 }
 ul:first-of-type {
-    width: 275px;
-    margin:0 auto 225px -125px;
+    width: 225px;
+    margin:0 auto 32vh -110px;
     font-size: .5em;
     list-style-type: none;
     text-align: center;
@@ -83,7 +90,7 @@ ul:first-of-type {
     bottom:0px;
     left:50%;
     overflow-y:auto;
-    height:185px;
+    height:175px;
     padding:0;
 
 }
@@ -94,7 +101,7 @@ ul:nth-of-type(2) {
     list-style-type: none;
     text-align: center;
     overflow-y:auto;
-    height:185px;
+    height:10vh;
     padding:0;
 
 }
@@ -110,4 +117,29 @@ li a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration:none;
+}
+table {
+    display:block;
+    margin: 0 10%;
+    position: absolute;
+    bottom:10vh;
+    width: 100%;
+}
+tbody {
+    display:block;
+}
+tr{
+ display:block;
+ column-count: 2;
+ column-gap: 50vw;
+}
+
+td {
+    text-align: center;
+    display: list-item;
+    list-style-type: none;
+}
+td a {
+    animation: example 1.82s infinite;
+    font-size:;
 }
